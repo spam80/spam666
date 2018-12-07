@@ -28,18 +28,6 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if(message.content === 'KING_Dz Credits :L'){
-        message.channel.send('#credits @! KING_Dz , Or - Tu .#3026 10000 ')
-    }
-});
-
-client.on('message', message => {
-    if(message.content === 'KING_Dz Done'){
-        message.channel.send('0000 [ " ${x} " ]`) ')
-    }
-});
-
-client.on('message', message => {
     if(message.content === 'Bot ?'){
         message.channel.send('** By KING_Dz + Yacine __Fun__ :tada:  **')
     }
