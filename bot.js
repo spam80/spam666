@@ -29,7 +29,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === 'Bot ?'){
-        message.channel.send('** By KING **')
+        message.channel.send('** By KING_Dz + Yacine __Fun__ :tada:  **')
     }
 });
 
