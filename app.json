@@ -1,0 +1,29 @@
+{
+  "name": "KING",
+  "description": ":L",
+  "scripts": {
+    "postdeploy": "speed",
+    "pr-predestroy": "speed"
+  },
+  "env": {
+    "TOKEN": {
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1
+    },
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
