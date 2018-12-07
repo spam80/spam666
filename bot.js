@@ -28,8 +28,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#credits')
+    if(message.content === 'Bot ?'){
+        message.channel.send('** By KING **')
     }
 });
 
