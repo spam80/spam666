@@ -34,20 +34,20 @@ client.on('message', message => {
 });
 
 client2.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === '$Daily'){
         message.channel.send('#daily')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === '$Credits'){
         message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#rep')
+    if(message.content === 'Bot ?'){
+        message.channel.send(':L Client2 :hearts: ')
     }
 });
 
